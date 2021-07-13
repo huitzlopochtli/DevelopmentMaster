@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/ProblemSets.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/ProblemSets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/ProblemSets.csproj",
+        "projectName": "ProblemSets",
+        "projectPath": "/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/ProblemSets.csproj",
+        "packagesPath": "/Users/hashibulkhondokar/.nuget/packages/",
+        "outputPath": "/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hashibulkhondokar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+usage(){
+    echo "Usage:"
+    echo "  $0 hostname.domain"
+    echo "  $0 facebook.com"
+    echo ""
+    echo "Parameters:"
+    echo "  hostname (required)"
+    echo ""
+}
+while getopts ":h:" option; do
+    case $option in
+        h) # display Help
+            usage
+            exit
+            ;;
+        \?|:|*)
+            usage
+            exit 
+            ;;
+    esac
+done
+
+
+hostname=$1
+
+ping -t 1 $hostname |
+sed -n 2p |
+grep -o '[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+'

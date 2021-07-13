@@ -1,0 +1,5 @@
+/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/Debug/netcoreapp2.2/ProblemSets.csproj.CoreCompileInputs.cache
+/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/Debug/netcoreapp2.2/ProblemSets.AssemblyInfoInputs.cache
+/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/Debug/netcoreapp2.2/ProblemSets.AssemblyInfo.cs
+/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/Debug/netcoreapp2.2/ProblemSets.dll
+/Volumes/Storage/Codes/C#/ProblemSets/ProblemSets/obj/Debug/netcoreapp2.2/ProblemSets.pdb

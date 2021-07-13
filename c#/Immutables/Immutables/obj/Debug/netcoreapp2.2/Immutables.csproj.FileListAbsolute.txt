@@ -1,0 +1,5 @@
+/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/Debug/netcoreapp2.2/Immutables.csproj.CoreCompileInputs.cache
+/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/Debug/netcoreapp2.2/Immutables.AssemblyInfoInputs.cache
+/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/Debug/netcoreapp2.2/Immutables.AssemblyInfo.cs
+/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/Debug/netcoreapp2.2/Immutables.dll
+/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/Debug/netcoreapp2.2/Immutables.pdb

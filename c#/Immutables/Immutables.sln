@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutables", "Immutables\Immutables.csproj", "{3B63A60E-95A5-4A7D-9E66-65D1C8930319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutables.UnitTests", "Immutables.UnitTests\Immutables.UnitTests.csproj", "{0DC145F4-5343-48AE-B3DD-01B4DA96BD17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B63A60E-95A5-4A7D-9E66-65D1C8930319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63A60E-95A5-4A7D-9E66-65D1C8930319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63A60E-95A5-4A7D-9E66-65D1C8930319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63A60E-95A5-4A7D-9E66-65D1C8930319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC145F4-5343-48AE-B3DD-01B4DA96BD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC145F4-5343-48AE-B3DD-01B4DA96BD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC145F4-5343-48AE-B3DD-01B4DA96BD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC145F4-5343-48AE-B3DD-01B4DA96BD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

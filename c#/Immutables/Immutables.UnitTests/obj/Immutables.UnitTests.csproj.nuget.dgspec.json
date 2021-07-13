@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Storage/Codes/C#/Immutables/Immutables.UnitTests/Immutables.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Storage/Codes/C#/Immutables/Immutables.UnitTests/Immutables.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Storage/Codes/C#/Immutables/Immutables.UnitTests/Immutables.UnitTests.csproj",
+        "projectName": "Immutables.UnitTests",
+        "projectPath": "/Volumes/Storage/Codes/C#/Immutables/Immutables.UnitTests/Immutables.UnitTests.csproj",
+        "packagesPath": "/Users/hashibulkhondokar/.nuget/packages/",
+        "outputPath": "/Volumes/Storage/Codes/C#/Immutables/Immutables.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hashibulkhondokar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Volumes/Storage/Codes/C#/Immutables/Immutables/Immutables.csproj": {
+                "projectPath": "/Volumes/Storage/Codes/C#/Immutables/Immutables/Immutables.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Volumes/Storage/Codes/C#/Immutables/Immutables/Immutables.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Storage/Codes/C#/Immutables/Immutables/Immutables.csproj",
+        "projectName": "Immutables",
+        "projectPath": "/Volumes/Storage/Codes/C#/Immutables/Immutables/Immutables.csproj",
+        "packagesPath": "/Users/hashibulkhondokar/.nuget/packages/",
+        "outputPath": "/Volumes/Storage/Codes/C#/Immutables/Immutables/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hashibulkhondokar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "BenchmarkDotNet.Core": {
+              "target": "Package",
+              "version": "[0.10.14, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

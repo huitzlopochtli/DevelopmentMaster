@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{3B63A60E-95A5-4A7D-9E66-65D1C8930319}|Default">
+  <MonoDevelop.Ide.ItemProperties.Immutables PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Immutables/MergeSort.cs">
+    <Files>
+      <File FileName="Immutables/Program.cs" Line="92" Column="1" />
+      <File FileName="Immutables/MergeSort.cs" Line="59" Column="10" />
+      <File FileName="Immutables.UnitTests/ImmutableQueueTest.cs" />
+      <File FileName="Immutables.UnitTests/MergeSortTest.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Immutables" expanded="True" selected="True">
+            <Node name="Immutables" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="Immutables.UnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
