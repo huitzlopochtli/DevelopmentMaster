@@ -1,8 +1,13 @@
-const { name, add } = require('./utils.js');
-const { getNotes } = require('./notes');
+// const { name, add } = require('./utils.js');
+// const { getNotes } = require('./notes');
 
-console.log(name);
+// const validator = require('validator');
 
-console.log(add(10, 20));
+import validator from 'validator';
+import chalk from 'chalk';
 
-console.log(getNotes());
+
+console.log(validator.isEmail('test'));
+console.log(validator.isURL('peeyalk.com'));
+
+console.log(chalk.red.inverse.bold('Error'));
