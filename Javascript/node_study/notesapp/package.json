@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "yargs": "^17.2.1"
   },
-  "type": "module"
+  "devDependencies": {
+  }
 }

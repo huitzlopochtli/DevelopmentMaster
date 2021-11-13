@@ -1,25 +1,65 @@
-// const { name, add } = require('./utils.js');
-// const { getNotes } = require('./notes');
+const yargs = require('yargs');
+const notesRepository = require('./notes');
 
-// const validator = require('validator');
 
-import validator from 'validator';
-import chalk from 'chalk';
 
-console.log(validator.isEmail('test'));
-console.log(validator.isURL('peeyalk.com'));
+// Create Add Command
+yargs.command({
+	command: 'add',
+	describe: 'Add a new note',
+	builder: {
+		title: {
+			describe: 'Note title',
+			demandOption: true,
+			type: 'string'
+		},
+		body:{
+			describe: 'Note Body',
+			demandOption:true,
+			type: 'string'
+		}
+	},
+	handler: (argv) => {
+		notesRepository.addNote(argv.title, argv.body);
+	}
+});
 
-console.log(chalk.red.inverse.bold('Error'));
+yargs.command({
+	command: 'remove',
+	describe: 'Remove a note',
+	builder: {
+		title: {
+			describe: 'Note title',
+			demandOption: true,
+			type: 'string'
+		}
+	},
+	handler: (argv) => {
+		notesRepository.removeNode(argv.title);
+	}
+});
 
-/*
-	Command Line Arguments
-*/
-const command = process.argv[2];
+yargs.command({
+	command: 'list',
+	describe: 'List of notes',
+	handler: () => {
+		notesRepository.listNodes();
+	}
+});
 
-switch (command) {
-  case 'add':
-    console.log(command);
-    break;
-  default:
-    console.log(chalk.red.bold.inverse('Command not found'));
-}
+yargs.command({
+	command: 'read',
+	describe: 'Read a note',
+	builder: {
+		title: {
+			describe: 'Note title',
+			demandOption: true,
+			type: 'string'
+		}
+	},
+	handler: (argv) => {
+		notesRepository.readNode(argv.title);
+	}
+});
+
+yargs.parse();
